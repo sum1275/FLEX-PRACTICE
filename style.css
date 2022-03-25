@@ -1,0 +1,63 @@
+body,
+html {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  background-color: red;
+}
+.s-header {
+  width: 100%;
+  height: 50px;
+  background-color: #000;
+}
+.s-main-container {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.s-main {
+  flex: 1;
+  background-color: blue;
+  display: flex;
+  flex-direction: row;
+}
+
+.s-main-content {
+  background-color: yellow;
+  margin: 5px;
+  flex: 1;
+}
+
+.s-main-content-subsection {
+  display: flex;
+  flex-direction: row;
+}
+
+.s-main-content-subsection-section {
+  flex: 1;
+  background-color: fuchsia;
+  margin: 5px;
+  display: flex;
+  flex-direction: column;
+}
+
+.s-main-content-subsection-section-section {
+  flex: 1;
+  background-color: grey;
+  margin: 5;
+}
+
+.s-content {
+  flex: 1;
+  background-color: green;
+  display: flex;
+  flex-direction: row;
+}
+
+.s-news {
+  flex: 1;
+  background-color: red;
+  margin: 5px;
+}
